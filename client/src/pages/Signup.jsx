@@ -1,6 +1,6 @@
 export default function Signup(){
     return(
-        <div>
+        <div className="container">
             <h1>
                 Sign Up
             </h1>

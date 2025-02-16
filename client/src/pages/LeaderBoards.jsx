@@ -1,6 +1,6 @@
 export default function LeaderBoards(){
     return(
-        <div>
+        <div className="container">
             <h1>
                 Leader Boards
             </h1>

@@ -1,0 +1,159 @@
+.{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+/*---------------------------*/
+/*----      Login         ---*/
+/*---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------*/
+/*----      Sign up       ---*/
+/*---------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------*/
+/*----      Home          ---*/
+/*---------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------*/
+/*----      Selection     ---*/
+/*---------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*---------------------------*/
+/*----      Game          ---*/
+/*---------------------------*/
+
+.game-section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.game-visual{
+    width: 60%;
+}
+.game-description{
+    gap: 10px;
+}
+.boss-section{
+    display: flex;
+    flex-direction: row;
+}
+.boss-description{
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+.boss-img{
+
+}
+#boss-img{
+    
+}
+.player-section{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.player-img{
+    width: 30%;
+}
+#player-img{
+
+}
+.player-description{
+    width: 70%;
+    display: flex;
+    align-items: end;
+}
+.skill-section{
+
+}
+.game-options{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.game-options-left{
+    width: 40%;
+}
+.game-options-right{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: right;
+}
+.game-btn{
+    padding: 10px;
+    background-color: rgb(31, 48, 229);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.skill-selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.skill-card{
+    height: 220px; 
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------*/
+/*----    Leader Board    ---*/
+/*---------------------------*/
