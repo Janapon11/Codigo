@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Level Selection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background: url('6adac01003e525540104727dddf1d730.png') no-repeat center center/cover;
+        }
+        .game-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .header {
+            background: url('Screenshot 2025-02-10 223746.png') no-repeat center center/contain;
+            width: 80%;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .level-selection {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+        }
+        .level-card {
+            width: 200px;
+            height: 300px;
+            background: url('18e5d5e5fb900a222cbd2b4083d27580.png') no-repeat center center/cover;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            border: 4px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .level-image {
+            width: 165px;
+            height: 210px;
+            padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .level-button {
+            width: 160px;
+            height: 50px;
+            font-size: 20px;
+            background: url('a3b140d455f46cd3277ce3ab0709de85.png') no-repeat center center/contain;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <img class="close-btn" src="X Square Button.png" alt="Close Button">
+        <div class="header"></div>
+        <div class="level-selection">
+            <div class="level-card">
+                <img class="level-image" src="c39a6731153cce54228c298dcb660dbc.png" alt="Winter Level">
+                <button class="level-button"><B>Winter</B></button>
+            </div>
+            <div class="level-card">
+                <img class="level-image" src="7778b6fe4949e1620b960c80d727e14d.png" alt="Autumn Level">
+                <button class="level-button"><b>Autumn</b></button>
+            </div>
+            <div class="level-card">
+                <img class="level-image" src="4ee5f0aa8df5e9658e85cd1d8152413e.png" alt="Grass Level">
+                <button class="level-button"><b>Grass</b></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
